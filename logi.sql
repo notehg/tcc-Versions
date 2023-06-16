@@ -28,9 +28,9 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `logi` (
-  `email` varchar(50) DEFAULT NULL,
-  `senha` varchar(20) DEFAULT NULL,
-  `usuario` varchar(50) DEFAULT NULL
+  `email` varchar(50) DEFAULT NOT NULL,
+  `senha` varchar(20) DEFAULT NOT NULL,
+  `usuario` varchar(50) DEFAULT NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
