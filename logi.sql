@@ -28,7 +28,6 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `logi` (
- CREATE TABLE `logi` (
   `email` varchar(50)  NOT NULL,
   `senha` varchar(20)  NOT NULL,
   `usuario` varchar(50)  NOT NULL,
